@@ -1,97 +1,97 @@
 export const info = {
   baseUrl: "https://astro-portfolio-uzair.vercel.app",
-  name: "Uzair Ahmed",
-  jobDescription: "Web Developer",
-  about: `I'm a software engineer based in Karachi, Pakistan.
-   I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.
-   I have been working for 3 year, with a demonstrated history of working in the Computer Software industry. Skilled in Front-end Development.
-   I have 3 years of experience in HTML, CSS, SCSS, JavaScript, Bootstrap, tailwind CSS, StyledComponent, React JS and Next JS. Hence,
-   I have successfully completed several web projects from scratch. 
-   Yet, I learn continuously and never stop exploring new technologies.
-   So, I have also gained knowledge of Node JS, Express JS, Mongo DB, Python,
-   firebase and React Native with time.
+  name: "Daniel Rojas",
+  jobDescription: "Full Stack Web Developer",
+  about: `I'm Daniel Rojas, a software engineer based in Ypacaraí, Paraguay, with seven years of experience. 
+  My journey has been a tech-fueled adventure, encompassing everything from Java-based backend work with tools like Spring and Hibernate, 
+  to crafting engaging frontend experiences with AngularJS/Angular.  My career highlights encompass UI/UX design, robust testing, debugging, and database management. 
+  I excel in solo and team projects and thrive on continuous learning, adding Node JS, Express JS, Mongo DB, Python, 
+  Firebase, and React Native to my skills. 
+  My insatiable curiosity drives my passion for innovation and creative problem-solving.
   `,
 
   experience: [
     {
-      name: "InterNative Labs, LLC",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "Apr 2022",
+      name: "Scanntech (Remote)",
+      location: "Montevideo, Uruguay",
+      startDate: "Nov 2021",
       endDate: "Present",
       description: [
-        "- Developing screens and UI components for the web application using React and Tailwind.",
-        "- Fixing UI issues and integrating backend APIs with Redux Saga.",
+        "- Design and development of web applications based on Java - Spring & Hibernate.",
+        "- Development of user interfaces for a web system utilizing the Angular framework.",
+        "- Documenting, testing, deployment, maintenance, support of platforms, applications, databases and solutions.",
+        "- Code Improvements and Refactoring. ",
+        "- Best Practices and Rules Maintainer.",
       ],
     },
 
     {
-      name: "Coupon Approve (Remote)",
-      location: "Amsterdam, North Holland, Netherlands",
-      startDate: "Nov 2020",
-      endDate: "Apr 2022",
+      name: "Konecta Software Factory",
+      location: "Asunción, Paraguay",
+      startDate: "Mar 2017",
+      endDate: "Oct 2021",
       description: [
-        "✓ Developing code in accordance with appropriate design and architectural rules",
-        "✓ Documenting, testing, deployment, maintenance, support of platforms, applications, databases and solutions",
-        "✓ Help and training of other colleagues",
-        "✓ Others tasks connected to the nature of the job",
-        "✓ Code Improvements and Refactoring ",
-        "✓ Best Practices and Rules Maintainer",
+        "- Development of web systems utilizing technologies such as Java EE (MyBatis, Hibernate) and JavaScript (AngularJS, BackboneJS, Angular).",
+        "- Developing code in accordance with appropriate design and architectural rules.",
+        "- Migration and manipulation of Databases",
+        "- Help and training of other colleagues.",
+        "- Others tasks connected to the nature of the job.",
       ],
     },
 
     {
-      name: "Interns Pakistan",
-      location: "Pakistan",
-      startDate: "Oct 2020",
-      endDate: "Nov 2020",
+      name: "Internship CIA FPUNA",
+      location: "San Lorenzo, Paraguay",
+      startDate: "Jun 2016",
+      endDate: "Dec 2016",
       description: [
-        "An Immersive Internship Program that prepares me for the world's most in-demand career. A six weeks program completely based on learning and challenges.",
-        "The internship track is built by an industry expert that let develop the skills in the areas most important ",
+        "- I started as an intern for approximately two months and was subsequently hired as a Jr. Java Developer.",
+        "- Developing a web system using JSF PrimeFaces. Testing using Junit and Mockito.",
+        "- Validation of requirements and modeling with the user."
       ],
     },
   ],
 
   education: [
     {
-      name: "Pakistan Institute of Professional Science & Technology (PIPS-TECH)",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2019",
-      endDate: "2022",
+      name: "Facultad Politécnica - Universidad Nacional de Asunción",
+      location: "San Lorenzo, Paraguay",
+      startDate: "2020",
+      endDate: "Present",
       description: [
-        "Diploma of Associate Engineering,  Computer Information Technology (CIT)",
+        "Master in ICT with emphasis in Software Engineering",
       ],
     },
     {
-      name: "Govt. Degree Boys College Buffer Zone",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2018",
-      endDate: "2020",
-      description: ["Intermediate, Pre-Engineering"],
-    },
-    {
-      name: "Ghazi Foundation Schools & Colleges",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2016",
-      endDate: "2018",
-      description: ["Matriculation,  Computer Science"],
+      name: "Facultad Politécnica - Universidad Nacional de Asunción",
+      location: "San Lorenzo, Paraguay",
+      startDate: "2012",
+      endDate: "2019",
+      description: ["Computer Engineering"],
     },
   ],
 
   socialMedia: {
-    facebook: "https://www.facebook.com/profile.php?id=100022899849583",
-    twitter: "https://twitter.com/Uzzii_21",
-    github: "https://github.com/uzzii-21",
-    email: "uzairahmed@74372gmail.com",
-    linkedin: "https://www.linkedin.com/in/uzzii21/",
+    twitter: "https://twitter.com/danyrs_",
+    github: "https://github.com/danyrojass",
+    email: "danyrojassimon@gmail.com",
+    linkedin: "https://www.linkedin.com/in/daniel-rojas-a10757135/",
   },
 
   projects: [
     {
-      title: "Astro Portfolio",
+      title: "Daniel Rojas's Resume",
       isFeatured: true,
       thumbnail: "/assets/images/astro-portfolio.png",
-      githubUrl: "https://github.com/uzzii-21/astro-portfolio",
+      githubUrl: "https://github.com/danyrojass/astro-portfolio",
       liveUrl: "https://astro-portfolio-uzair.vercel.app/",
+    },
+    {
+      title: "Apuesta al Clic",
+      isFeatured: true,
+      thumbnail: "/assets/images/apuesta-al-clic.png",
+      githubUrl: "https://github.com/danyrojass/tormenta-codigo-apuesta-al-clic",
+      liveUrl: "https://apuesta-al-clic.vercel.app/",
     },
   ],
 };
