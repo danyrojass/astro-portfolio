@@ -84,7 +84,7 @@ export const info = {
       isFeatured: true,
       thumbnail: "/assets/images/astro-portfolio.png",
       githubUrl: "https://github.com/danyrojass/astro-portfolio",
-      liveUrl: "https://astro-portfolio-uzair.vercel.app/",
+      liveUrl: "https://astro-portfolio-orcin.vercel.app/",
     },
     {
       title: "Apuesta al Clic",
