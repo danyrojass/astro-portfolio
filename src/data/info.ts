@@ -92,6 +92,22 @@ export const info = {
       thumbnail: "/assets/images/apuesta-al-clic.png",
       githubUrl: "https://github.com/danyrojass/tormenta-codigo-apuesta-al-clic",
       liveUrl: "https://apuesta-al-clic.vercel.app/",
+    }, {
+      title: "Agregar Numeración a PDF",
+      isFeatured: true,
+      thumbnail: "/assets/images/agregar-numeracion.png",
+      githubUrl: "https://github.com/danyrojass/add-numeric-pagination",
+      liveUrl: "https://add-numeric-pagination.vercel.app/",
     },
   ],
+
+  blog: [
+    {
+      title: "Paginación eficiente en Spring Boot",
+      publishedAt: 2023-10-10,
+      description: "Explorando la interfaz Pageable y Alternativas",
+      slug: "paginacion-eficiente-spring-boot",
+      isPublish: true
+    }
+  ]
 };
