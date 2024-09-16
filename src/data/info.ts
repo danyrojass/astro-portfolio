@@ -80,11 +80,18 @@ export const info = {
 
   projects: [
     {
+      title: "CRUD y Estadísticas de Productos",
+      isFeatured: true,
+      thumbnail: "/assets/images/crud-productos-estadisticas.png",
+      githubUrl: "https://github.com/danyrojass/crud-productos-estadisticas",
+      liveUrl: "https://crud-productos-wu6s.onrender.com/productos-estadisticas/swagger-ui/index.html",
+    },
+    {
       title: "Daniel Rojas's Resume",
       isFeatured: true,
       thumbnail: "/assets/images/astro-portfolio.png",
       githubUrl: "https://github.com/danyrojass/astro-portfolio",
-      liveUrl: "https://astro-portfolio-orcin.vercel.app/",
+      liveUrl: "https://portfolio-rojas-daniel.vercel.app/",
     },
     {
       title: "Apuesta al Clic",
